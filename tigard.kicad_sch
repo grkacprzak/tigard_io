@@ -11391,6 +11391,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28017893-7d12-433b-a734-d3b1af7d196b")
+	)
+	(wire
+		(pts
 			(xy 196.85 113.03) (xy 196.85 114.3)
 		)
 		(stroke
@@ -11448,6 +11458,16 @@
 			(type default)
 		)
 		(uuid "2a877f47-b8f0-4442-b668-42b4483683d7")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b94b2c8-d4d2-4191-bc99-00c4abc86585")
 	)
 	(wire
 		(pts
@@ -12348,16 +12368,6 @@
 			(type default)
 		)
 		(uuid "5d90806c-a3e6-42d2-9cc0-3ffd8d0e40ad")
-	)
-	(wire
-		(pts
-			(xy 204.47 90.17) (xy 218.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0824ac-9563-4290-9e66-d40e047eb962")
 	)
 	(wire
 		(pts
@@ -13278,16 +13288,6 @@
 			(type default)
 		)
 		(uuid "91305f2e-61cd-4250-b167-4a164da25bfb")
-	)
-	(wire
-		(pts
-			(xy 158.75 85.09) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92338fe6-b452-4a51-8913-027f96b3d381")
 	)
 	(wire
 		(pts
@@ -15379,7 +15379,7 @@
 		)
 		(uuid "11d905b8-cd98-42af-a2d6-002af82ca642")
 	)
-	(label "SWDIO"
+	(label "DIO"
 		(at 158.75 90.17 0)
 		(effects
 			(font
@@ -15419,6 +15419,16 @@
 		)
 		(uuid "1748b235-2b55-497a-80a1-db7315d55a20")
 	)
+	(label "SWDIO"
+		(at 163.83 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19a89636-83bb-4021-8ec1-cd71a683013a")
+	)
 	(label "xPB4"
 		(at 236.22 82.55 0)
 		(effects
@@ -15428,16 +15438,6 @@
 			(justify left bottom)
 		)
 		(uuid "1d4221c1-b1f5-4a3c-97d4-87a6bc2ca0a1")
-	)
-	(label "TMS"
-		(at 162.56 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2096d707-5338-4ea1-add5-6f895aaa6c09")
 	)
 	(label "UART_RX"
 		(at 186.69 218.44 0)
@@ -15639,6 +15639,26 @@
 		)
 		(uuid "4b920f5f-097e-4b30-9d66-d0b1801c279a")
 	)
+	(label "CS"
+		(at 158.75 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c8ee95e-1aa8-4156-a5db-d041c1c9c225")
+	)
+	(label "CLK"
+		(at 205.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ccf4900-573f-482c-8770-9e5a98d8d269")
+	)
 	(label "xPB7"
 		(at 194.31 187.96 180)
 		(effects
@@ -15659,15 +15679,15 @@
 		)
 		(uuid "51cb11cc-406b-47c5-919d-8bd498b659ea")
 	)
-	(label "COPI"
-		(at 140.97 95.25 180)
+	(label "TMS"
+		(at 163.83 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "53bbcfa1-2b1a-45ba-8674-c7e12baf7ffb")
+		(uuid "5279a857-c275-4f36-ab54-8d62c8739477")
 	)
 	(label "TCK"
 		(at 303.53 55.88 180)
@@ -15709,6 +15729,16 @@
 		)
 		(uuid "57cb089c-3142-46e3-b243-157511e7a68a")
 	)
+	(label "TCK"
+		(at 215.9 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5802af69-a62a-45ab-8873-91fc6250d6df")
+	)
 	(label "UART_RX"
 		(at 204.47 187.96 180)
 		(effects
@@ -15740,7 +15770,7 @@
 		(uuid "5bfeb10a-555f-48cb-8e53-21ecb7d96748")
 	)
 	(label "TDO"
-		(at 165.1 85.09 0)
+		(at 163.83 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15778,26 +15808,6 @@
 			(justify right bottom)
 		)
 		(uuid "64f1653e-c29b-4e6f-b348-b42cb0a0d1e5")
-	)
-	(label "CS"
-		(at 158.75 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "674cbc65-62b3-431a-b849-f6d7b56b4e22")
-	)
-	(label "TDI"
-		(at 132.08 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68fd13f7-9857-4f7e-822d-f01abac3ca20")
 	)
 	(label "EEDATA"
 		(at 30.48 186.69 0)
@@ -15839,7 +15849,7 @@
 		)
 		(uuid "7611080f-1aeb-4db8-8360-ec390a789274")
 	)
-	(label "CIPO"
+	(label "DI"
 		(at 234.95 55.88 0)
 		(effects
 			(font
@@ -15889,7 +15899,7 @@
 		)
 		(uuid "84437494-9304-4e9a-8e8f-91d041af17cb")
 	)
-	(label "COPI"
+	(label "DIO"
 		(at 294.64 93.98 180)
 		(effects
 			(font
@@ -16129,16 +16139,6 @@
 		)
 		(uuid "bc5a9fa8-31c5-4d77-94c4-0f9a38650298")
 	)
-	(label "CIPO"
-		(at 158.75 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc8b55c3-1c0f-4c4f-9349-a15b3de7792f")
-	)
 	(label "BD0"
 		(at 152.4 140.97 0)
 		(effects
@@ -16239,7 +16239,7 @@
 		)
 		(uuid "cdb06255-17c3-4851-8145-d8a2e32836b3")
 	)
-	(label "COPI"
+	(label "DO"
 		(at 261.62 60.96 180)
 		(effects
 			(font
@@ -16248,6 +16248,16 @@
 			(justify right bottom)
 		)
 		(uuid "d0b95e7c-0d2a-4b93-8fc8-d2fc7e3741f4")
+	)
+	(label "TDI"
+		(at 135.89 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1f39f42-65cc-4172-a86e-b737cfffb97f")
 	)
 	(label "EECS"
 		(at 48.26 254 0)
@@ -16269,7 +16279,7 @@
 		)
 		(uuid "d30455d6-80cb-440b-aa87-2c5ccd415d02")
 	)
-	(label "SWDIO"
+	(label "DIO"
 		(at 158.75 99.06 0)
 		(effects
 			(font
@@ -16318,26 +16328,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbfa0da1-58b6-4dea-8d15-5cd936c3960d")
-	)
-	(label "CLK"
-		(at 204.47 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1ea8da6-ac0e-4160-a5dc-211f369f9903")
-	)
-	(label "TCK"
-		(at 218.44 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e24a4687-09ef-4a70-88b8-3af1a37c8624")
 	)
 	(label "USB_DP"
 		(at 62.23 45.72 180)
